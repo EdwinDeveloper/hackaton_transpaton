@@ -4,8 +4,86 @@ section.home_banner_area{
 
 .chart-container{
 	width:80%;
+	position:absolute;
+	bottom:0;
 }
 
 body{
 	overflow-x:hidden;
+}
+
+#first-section{
+	padding-bottom:30px !important;
+}
+
+#first-section .card{
+	min-height: 455px !important;
+    margin-bottom: 30px !important;
+}
+
+#first-section b{
+	color:#692874;
+}
+
+.donation_details{
+	padding-bottom:50px !important;
+}
+
+.section-title-wrap{
+	margin-bottom:30px !important;
+}
+
+.support_campaign .campaign_box{
+	height:160px;
+}
+
+.support_campaign .campaign_box .progress{
+	bottom: 0px;
+    position: absolute;
+    width: calc(100% - 30px);
+}
+
+.support_campaign .campaign_box .camppaign .img-box{
+	width:100px !important;
+}
+
+.support_campaign .campaign_box .camppaign .img-box img{
+	width:70px !important;
+	max-width:unset !important;
+}
+
+.charts-section #quote{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px !important;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 80px;
+    color: #692874;
+    font-weight: bold;
+}
+
+.charts-section .chart-col{
+	height:380px;
+}
+
+.footer-area{
+	background: #692874;
+    color: yellow;
+    padding-top:30px !important;
+    padding-bottom: 30px !important;
+    color:yellow;
+}
+
+.footer-area a{
+	color:yellow !important;
+}
+
+.footer-area a:hover{
+	color:yellow !important;
+}
+
+.cursor-pointer{
+	cursor:pointer !important;
 }
