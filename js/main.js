@@ -124,6 +124,7 @@ __proto__: Object*/
             $(".institute-name").text(finanzasActuales.descripcion)
         });
     });
+    $("html, body").animate({ scrollTop: $('#first-section').offset().top }, 500);
 }
 
 function printPatientsChart() {
