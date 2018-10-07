@@ -46,9 +46,9 @@ function getDataReference() {
             let matchEgresos = egresosArray.filter(egreso => egreso.FL_PACIENTE == referenciaFinanzasTeleton);
             console.log(matchEgresos)
             $(".testimonies-row").empty();
-            $("#our-major-cause").empty();
+            //$("#our-major-cause").empty();
             $.each(matchEgresos,function(key,value){
-                console.log(value)
+               console.log(value)
                 $(".testimonies-row").append(`
                     <div class="col-lg-6 mb-30">
                         <div class="campaign_box">
@@ -70,7 +70,7 @@ function getDataReference() {
                     </div>
                 `)
 
-                $("#our-major-cause").append(`
+                /*$("#our-major-cause").append(`
                     <div class="card">
                         <div class="card-body">
                             <figure>
@@ -92,7 +92,7 @@ function getDataReference() {
                         </div>
                     </div>
 
-                    `)
+                    `)*/
             })
             
             /*CL_ESTATUS: "E"
@@ -185,3 +185,19 @@ function printFinanzasChart(){
         }
     });
 }
+
+function agregarEgreso(consecutivo){
+    firebase.database().ref('/egresos/egreso_'+consecutivo).set({
+        CL_ESTATUS: "E",
+        DS_LOGROS: "Julio logr¢  ser m s tolerante al contacto con terceras  personas, as¡ tambi‚n con  mejora en  periodos de atenci¢n ",
+        DS_TESTIMONIO: " Gracias por brindarme las herramientas necesarias para las actividades cotidianas y de tratamiento para seguimiento en casa.",
+        EDAD: "15",
+        FL_PACIENTE: "instituto_1",
+        NB_ALIAS: "JULIO",
+        NB_ENFERMEDAD: "PARALISIS CEREBRAL ESPASTICA"
+    });
+    printEgresosChart()
+    printFinanzasChart()
+    printPatientsChart()
+}
+

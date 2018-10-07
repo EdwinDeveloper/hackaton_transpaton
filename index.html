@@ -2,8 +2,7 @@
 <html lang="en">
 	<head>
 		<!-- Required meta tags -->
-		 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="icon" href="" type="">
@@ -24,12 +23,10 @@
 		<link rel="stylesheet" href="css/amend.css">
 	</head>
 	<body>
-		<!--================Header Menu Area =================-->
 		<header class="header_area">
 			<div class="main_menu">
 				<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container">
-						<!-- Brand and toggle get grouped for better mobile display -->
 						<a class="navbar-brand logo_h" href="index.html">
 							<img src="img/logo.png" alt="">
 						</a>
@@ -39,7 +36,6 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						</button>
-						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<div class="row ml-0 w-100">
 								<div class="col-lg-12 pr-0">
@@ -92,8 +88,6 @@
 				</nav>
 			</div>
 		</header>
-		<!--================Header Menu Area =================-->
-		<!--================ Home Banner Area =================-->
 		<section class="home_banner_area">
 			<div class="overlay"></div>
 			<div class="banner_inner d-flex align-items-center">
@@ -103,38 +97,216 @@
 							<img class="img-fluid" src="" alt="">
 							<label class="lbl-ref">Ingresa la Referencia de tu donacion para saber<br> a donde fue asignado tu donativo</label>
 							<div class="input-group">
-								<input type="text" id="donacion-referencia" class="form-control" placeholder="Escribe tu referencia" aria-label="Recipient's username" aria-describedby="button-addon2">
+								<input type="text" id="donacion-referencia" class="form-control" placeholder="Escribe tu referencia" aria-label="Recipient's username" aria-describedby="button-addon2" value="RT_0001">
 								<div class="input-group-append">
 									<button class="btn btn-outline-secondary btn-search" type="button" id="button-addon2"  onclick="getDataReference()">Buscar</button>
 								</div>
-							</div>							
+							</div>
 							
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!--================ End Home Banner Area =================-->
-		<!--================ Start important-points section =================-->
-		<section id="first-section" class="donation_details pad_top">
+		<section id="first-section" class="our_major_cause section_gap">
 			<div class="container">
+				<div class="row justify-content-center section-title-wrap">
+					<div class="col-lg-12">
+						<h1>Gracias a tu donativo, ellos tienen mejores oportunidades:</h1>
+					</div>
+				</div>
 				<div class="row">
-					<h1 class="video-title">Tu donativo se encuentra en el <span class="institute-name"></span> <br>y con él podremos generar más historias como esta:</h1>				
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe src="https://www.youtube.com/embed/CTb6ZVxnzfo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>			
+					<div id="our-major-cause" class="owl-carousel ">
+						<div class="card">
+							<div class="card-body">
+								<figure>
+									<img class="card-img-top img-fluid" src="img/imgconformato/img1.jpg" alt="Card image cap">
+								</figure>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+										<span>Edad: 4 años</span>
+									</div><br>
+								</div>
+								<div class="card_inner_body">
+									<div class="card-body-top">
+										<span></span> Retardo del desarrollo
+									</div>
+									<h4 class="card-title">NANCY</h4>
+									<p class="card-text">La madre refiere estar muy contenta con el trabajo que se realizo y las atenciones que recibió por parte del equipo de trabajo que intervino con Nancy .
+									</p>
+									<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<figure>
+									<img class="card-img-top img-fluid" src="img/imgconformato/img2.jpg" alt="Card image cap">
+								</figure>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+										<span>Edad: 4 años</span>
+									</div>
+								</div>
+								<div class="card_inner_body">
+									<div class="card-body-top">
+										<span></span>Retardo del desarrollo
+									</div>
+									<h4 class="card-title">Jorge</h4>
+									<p class="card-text">Estoy totalmente satisfecha y agradecida por los cambios que tuvo mi Ambercita, mil gracias y Dios los bendiga a todos.
+									</p>
+									<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<figure>
+									<img class="card-img-top img-fluid" src="img/imgconformato/img3.jpg" alt="Card image cap">
+								</figure>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+										<span>Edad: 6 años</span>
+									</div>
+								</div>
+								<div class="card_inner_body">
+									<div class="card-body-top">
+										<span></span> PARAPLEJIA FLACIDA
+									</div>
+									<h4 class="card-title">Maria</h4>
+									<p class="card-text">iAprendía a hacer ejercicio, para estar más fuerte y caminar, aprendía a leer
+									</p>
+									<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<figure>
+									<img class="card-img-top img-fluid" src="img/imgconformato/img4.jpg" alt="Card image cap">
+								</figure>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+										<span>Edad: 12 años</span>
+									</div>
+								</div>
+								<div class="card_inner_body">
+									<div class="card-body-top">
+										<span></span>PARAPLEJIA FLACIDA
+									</div>
+									<h4 class="card-title">Gaby</h4>
+									<p class="card-text">Me sentí muy bien en Teleton, la atención es muy eficaz. La verdad hice muchos amigos, la gente, el personal me trataron muy bien, quiero agradecer a toda esa gente que me apoyó, con ellos supere muchas metas, ahora mis logros se los dedico a ellos, me voy triste y a la vez feliz. Gracias
+									</p>
+									<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<figure>
+									<img class="card-img-top img-fluid" src="img/imgconformato/img5.jpg" alt="Card image cap">
+								</figure>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+										<span>Paraplejia</span>
+									</div>
+								</div>
+								<div class="card_inner_body">
+									<div class="card-body-top">
+										<span></span>Edad 8 años
+									</div>
+									<h4 class="card-title">NANIS</h4>
+									<p class="card-text"> Gracias por el apoyo y atenciones recibidas en CRIT. Familia Martínez</p>
+									<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<figure>
+									<img class="card-img-top img-fluid" src="img/imgconformato/imgonce.jpg" alt="Card image cap">
+								</figure>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+										<span>Edad: 7 años</span>
+									</div>
+								</div>
+								<div class="card_inner_body">
+									<div class="card-body-top">
+										<span></span>RETARDO DEL DESARROLLO
+									</div>
+									<h4 class="card-title">Ushio</h4>
+									<p class="card-text">  Me siento feliz, aquí en el CRIT aprendí muchas cosas sobre el manejo de Josué, me aclararon dudas, me enseñaron muchas cosas.
+									</p>
+									<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<figure>
+									<img class="card-img-top img-fluid" src="img/imgconformato/img7.jpg" alt="Card image cap">
+								</figure>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+										<span>PARALISIS CEREBRAL INFANTIL</span>
+									</div>
+								</div>
+								<div class="card_inner_body">
+									<div class="card-body-top">
+										<span></span>Edad: 9 años
+									</div>
+									<h4 class="card-title">Jaimito</h4>
+									<p class="card-text">Estamos muy agradecidos por la atención,  y la dedicación por parte de todo el personal del CRIT; nos vamos muy contentos de ver los logros y todos los avances.
+									</p>
+									<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<figure>
+									<img class="card-img-top img-fluid" src="img/imgconformato/imgdiez.jpg" alt="Card image cap">
+								</figure>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+										<span>AUSENCIA CONGENITA DE LA MANO </span>
+									</div>
+								</div>
+								<div class="card_inner_body">
+									<div class="card-body-top">
+										<div></div>
+										<span></span> Edad: 13 años
+									</div>
+									<h4 class="card-title">Andrea</h4>
+									<p class="card-text">Estamos muy contentos porque cuando llegamos aquí me dieron una opinión diferente a todos los demás lugares donde la habíamos llevado, gracias a Dios
+									</p>
+									<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!--================ Start histories section =================-->
+		<section class="donation_details pad_top">
+			<div class="container">
+				<div class="row">
+					<h1 class="video-title">Tu donativo se encuentra en el <span class="institute-name"></span> <br>y con él podremos generar más historias como esta:</h1>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/CTb6ZVxnzfo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section class="support_campaign pad_bottom">
 			<div class="container">
 				<div class="row justify-content-center section-title-wrap">
-					<div class="col-lg-12">									
+					<div class="col-lg-12">
 					</div>
 				</div>
 				<div class="row testimonies-row">
-					<!-- <div class="col-lg-6 mb-30">
+					<div class="col-lg-6 mb-30">
 						<div class="campaign_box">
 							<div class="camppaign d-flex">
 								<div class="img-box">
@@ -241,267 +413,70 @@
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
 				<p>
-						“Las personas con discapacidad, antes que nada, y por sobre todas las cosas, simple y únicamente son personas”.
-					</p>
-			</div>
-		</section>
-		<!--================ eND OF hISTORIES section =================-->
-		<!--================ Start Our Major Cause section ===========-->
-		<section class="our_major_cause section_gap">
-			<div class="container">
-			<div class="row justify-content-center section-title-wrap">
-				<div class="col-lg-12">
-					<h1>Gracias a tu donativo, ellos tienen mejores oportunidades:</h1>
-				</div>
-			</div>
-
-			<div class="row">
-				<div id="our-major-cause" class="owl-carousel ">
-					<div class="card">
-						<div class="card-body">
-							<figure>
-								<img class="card-img-top img-fluid" src="img/imgconformato/img1.jpg" alt="Card image cap">
-							</figure>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-									<span>Edad: 4 años</span>
-								</div><br>
-							</div>
-							<div class="card_inner_body">
-								<div class="card-body-top">
-									<span></span> Retardo del desarrollo
-								</div>
-								<h4 class="card-title">NANCY</h4>
-								<p class="card-text">La madre refiere estar muy contenta con el trabajo que se realizo y las atenciones que recibió por parte del equipo de trabajo que intervino con Nancy .
-								</p>
-								<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="card-body">
-							<figure>
-								<img class="card-img-top img-fluid" src="img/imgconformato/img2.jpg" alt="Card image cap">
-							</figure>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-									<span>Edad: 4 años</span>
-								</div>
-							</div>
-							<div class="card_inner_body">
-								<div class="card-body-top">
-									<span></span>Retardo del desarrollo
-								</div>
-								<h4 class="card-title">Jorge</h4>
-								<p class="card-text">Estoy totalmente satisfecha y agradecida por los cambios que tuvo mi Ambercita, mil gracias y Dios los bendiga a todos.
-								</p>
-								<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="card-body">
-							<figure>
-								<img class="card-img-top img-fluid" src="img/imgconformato/img3.jpg" alt="Card image cap">
-							</figure>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-									<span>Edad: 6 años</span>
-								</div>
-							</div>
-							<div class="card_inner_body">
-								<div class="card-body-top">
-									<span></span> PARAPLEJIA FLACIDA
-								</div>
-								<h4 class="card-title">Maria</h4>
-								<p class="card-text">iAprendía a hacer ejercicio, para estar más fuerte y caminar, aprendía a leer
-								</p>
-								<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="card-body">
-							<figure>
-								<img class="card-img-top img-fluid" src="img/imgconformato/img4.jpg" alt="Card image cap">
-							</figure>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-									<span>Edad: 12 años</span>
-								</div>
-							</div>
-							<div class="card_inner_body">
-								<div class="card-body-top">
-									<span></span>PARAPLEJIA FLACIDA
-								</div>
-								<h4 class="card-title">Gaby</h4>
-								<p class="card-text">Me sentí muy bien en Teleton, la atención es muy eficaz. La verdad hice muchos amigos, la gente, el personal me trataron muy bien, quiero agradecer a toda esa gente que me apoyó, con ellos supere muchas metas, ahora mis logros se los dedico a ellos, me voy triste y a la vez feliz. Gracias
-								</p>
-								<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="card-body">
-							<figure>
-								<img class="card-img-top img-fluid" src="img/imgconformato/img5.jpg" alt="Card image cap">
-							</figure>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-									<span>Paraplejia</span>
-								</div>
-							</div>
-							<div class="card_inner_body">
-								<div class="card-body-top">
-									<span></span>Edad 8 años
-								</div>
-								<h4 class="card-title">NANIS</h4>
-								<p class="card-text"> Gracias por el apoyo y atenciones recibidas en CRIT. Familia Martínez</p>
-								<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="card-body">
-							<figure>
-								<img class="card-img-top img-fluid" src="img/imgconformato/imgonce.jpg" alt="Card image cap">
-							</figure>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-									<span>Edad: 7 años</span>
-								</div>
-							</div>
-							<div class="card_inner_body">
-								<div class="card-body-top">
-									<span></span>RETARDO DEL DESARROLLO
-
-								</div>
-								<h4 class="card-title">Ushio</h4>
-								<p class="card-text">  Me siento feliz, aquí en el CRIT aprendí muchas cosas sobre el manejo de Josué, me aclararon dudas, me enseñaron muchas cosas. 
-								</p>
-								<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="card-body">
-							<figure>
-								<img class="card-img-top img-fluid" src="img/imgconformato/img7.jpg" alt="Card image cap">
-							</figure>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-									<span>PARALISIS CEREBRAL INFANTIL</span>
-								</div>
-							</div>
-							<div class="card_inner_body">
-								<div class="card-body-top">
-									<span></span>Edad: 9 años
-								</div>
-								<h4 class="card-title">Jaimito</h4>
-								<p class="card-text">Estamos muy agradecidos por la atención,  y la dedicación por parte de todo el personal del CRIT; nos vamos muy contentos de ver los logros y todos los avances. 
-								</p>
-								<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<figure>
-								<img class="card-img-top img-fluid" src="img/imgconformato/imgdiez.jpg" alt="Card image cap">
-							</figure>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-									<span>AUSENCIA CONGENITA DE LA MANO </span>
-								</div>
-							</div>
-							<div class="card_inner_body">
-								<div class="card-body-top">
-									<div></div>	
-									<span></span> Edad: 13 años
-								</div>
-								<h4 class="card-title">Andrea</h4>
-								<p class="card-text">Estamos muy contentos porque cuando llegamos aquí me dieron una opinión diferente a todos los demás lugares donde la habíamos llevado, gracias a Dios 
-								</p>
-								<a href="#" class="main_btn2" onclick="location.href='http://www.teleton.org/home/colabora'">Colabora</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
+					“Las personas con discapacidad, antes que nada, y por sobre todas las cosas, simple y únicamente son personas”.
+				</p>
 			</div>
 		</section>
 		<section class="charts-section">
 			<div class="row d-flex justify-content-around">
-				<div class="col-4">
+				<div class="col-3">
 					<div class="chart-container">
 						<h3>Este instituto atiende al <span class="current-patients-percent"></span>% de los pacientes inscritos a Teletón</h3>
-				      <canvas id="patients-chart" width="300" height="300"></canvas>
-				    </div>
+						<canvas id="patients-chart" width="300" height="300"></canvas>
+					</div>
 				</div>
-			    <div class="col-4">
-			    	<h3>En él se han rehabilitado el <span class="porcentaje-pacientes-egresados"></span>% del total de los pacientes egresados de nuestros institutos</h3>
-				    <div class="chart-container">
-				      <canvas id="egresos-chart" width="300" height="300"></canvas>
-				    </div>
-			    </div>
-			    <div class="col-4">
-			    	<h3>y con tu donativo, tan solo nos faltan <span class="monto-requerido"></span> de pesos para lograr nuestra meta!</h3>
-				    <div class="chart-container">
-				      <canvas id="finanzas-chart" width="300" height="300"></canvas>
-				    </div>
-			    </div>
+				<div class="col-3">
+					<h3>En él se han rehabilitado el <span class="porcentaje-pacientes-egresados"></span>% del total de los pacientes egresados de nuestros institutos</h3>
+					<div class="chart-container">
+						<canvas id="egresos-chart" width="300" height="300"></canvas>
+					</div>
+				</div>
+				<div class="col-3">
+					<h3>y con tu donativo, tan solo nos faltan <span class="monto-requerido"></span> de pesos para lograr nuestra meta!</h3>
+					<div class="chart-container">
+						<canvas id="finanzas-chart" width="300" height="300"></canvas>
+					</div>
+				</div>
 			</div>
 			<div class="w-100"></div>
-			<h1 class="text-center w-100">¡Gracias por apoyar a Teletón!</h1>
+			<h1 class="text-center w-100 mt-3">¡Gracias por apoyar a Teletón!</h1>
 		</section>
-		<!--================ End Experience Area =================-->
-		<!--================ Start Footer Area  =================-->
 		<footer class="footer-area section_gap">
-			<div class="container">				
+			<div class="container">
 				<div>
 					<span class="direccion">Av. Gustavo Baz No. 219 - Col. San Pedro Barrientos C.P. 54010. Tlalnepantla, Estado de México. Tel. 5321 2223 Teleton</span>
-					<span class="copy">Teleton México © 2015 | 
+					<span class="copy">Teleton México © 2015 |
 						<a href="https://www.teleton.org/home/contenido/politicas-de-privacidad" class="politicas">Politicas de Privacidad</a>
 					</span>
 				</div>
-		</div>
-	</footer>
-	<!--================ End Footer Area  =================-->
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyA6AUrsxmoi645-1yhv-F9W9G3q2_RKj44",
-        authDomain: "hackatonteleton.firebaseapp.com",
-        databaseURL: "https://hackatonteleton.firebaseio.com",
-        projectId: "hackatonteleton",
-        storageBucket: "hackatonteleton.appspot.com",
-        messagingSenderId: "730018138942"
-      };
-      firebase.initializeApp(config);
-    </script>
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
-	<script src="js/mail-script.js"></script>
-	<script src="js/custom.js"></script>
-	<script src="js/main.js"></script>
-</body>
+			</div>
+		</footer>
+		<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+		<script>
+		// Initialize Firebase
+			var config = {
+			    apiKey: "AIzaSyA6AUrsxmoi645-1yhv-F9W9G3q2_RKj44",
+			    authDomain: "hackatonteleton.firebaseapp.com",
+			    databaseURL: "https://hackatonteleton.firebaseio.com",
+			    projectId: "hackatonteleton",
+			    storageBucket: "hackatonteleton.appspot.com",
+			    messagingSenderId: "730018138942"
+			};
+			firebase.initializeApp(config);
+		</script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+		<script src="vendors/isotope/isotope-min.js"></script>
+		<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+		<script src="js/jquery.ajaxchimp.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+		<script src="js/mail-script.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>

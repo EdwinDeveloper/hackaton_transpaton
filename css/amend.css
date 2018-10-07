@@ -5,3 +5,7 @@ section.home_banner_area{
 .chart-container{
 	width:80%;
 }
+
+body{
+	overflow-x:hidden;
+}
