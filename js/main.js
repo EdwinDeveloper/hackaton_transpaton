@@ -106,6 +106,7 @@ __proto__: Object*/
             currentEgresos = matchEgresos.length;
             console.log(currentEgresos)
             console.log(totalEgresos)
+            $(".porcentaje-pacientes-egresados").text(((currentEgresos * 100) / (totalEgresos)).toFixed(2))
             printPatientsChart();
             printEgresosChart()
         })
@@ -117,7 +118,7 @@ __proto__: Object*/
             ingresosNecesarios = parseInt(finanzasActuales.recNecesarios);
             ingresosRecaudar = parseInt(finanzasActuales.recRecaudar);
             $(".monto-requerido").text(ingresosRecaudar)
-            $(".porcentaje-pacientes-egresados").text(((currentEgresos * 100) / (totalEgresos)).toFixed(2))
+            
             $(".current-patients-percent").text(((institutePatients * 100) / (totalPatients)).toFixed(2))
             printFinanzasChart();
             $(".institute-name").text(finanzasActuales.descripcion)
