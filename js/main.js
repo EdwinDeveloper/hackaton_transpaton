@@ -124,6 +124,8 @@ __proto__: Object*/
             $(".institute-name").text(finanzasActuales.descripcion)
         });
     });
+    
+    $("section").removeClass("d-none");
     $("html, body").animate({ scrollTop: $('#first-section').offset().top }, 500);
 }
 
