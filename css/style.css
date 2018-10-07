@@ -82,6 +82,7 @@ button:focus {
 
 section.home_banner_area{
   height:100vh;
+  background-size:cover;
 }
 
 section.home_banner_area .banner_inner .banner_content{
